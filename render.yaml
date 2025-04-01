@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: pdf-vencimento-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars: []
